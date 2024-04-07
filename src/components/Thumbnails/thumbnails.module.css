@@ -1,0 +1,52 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li a {
+    height: 22.5rem;
+    width: 12rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #05044e;
+    text-decoration: none;
+  }
+  
+  .list li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style book name */
+  .list li a .book-name {
+    padding: 0.5rem;
+    font-weight: bold; /* Make the book name bold */
+  }
+   
+  .image{
+    object-fit: cover;
+    height: 14.5rem;
+  }
+
+
+
+  /* Style author name */
+  .list li a .author-name {
+    padding: 0.5rem;
+    color: #666; /* Adjust the color of the author name */
+  }
+  
+.price{
+    padding: 0.3rem 1rem; /* Adjusted padding */
+    color: #414141;
+    margin-top: 0.1rem;
+    font-size: 1.1rem;
+    width: 8rem;
+}
